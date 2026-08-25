@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,90 +7,162 @@
     <title>Rodrigo Palhares Medina | Data Science Portfolio</title>
 
     <meta name="description"
-          content="Rodrigo Palhares Medina — Data Science portfolio featuring Python, SQL, data analysis, visualization, and machine learning projects.">
+          content="Rodrigo Palhares Medina - Data Science, Data Analytics and Business Analytics Portfolio">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
-
-    <header class="navbar">
-
+    <!-- NAVIGATION -->
+    <nav class="navbar">
         <div class="nav-container">
 
-            <div class="logo">
-                RPM
-            </div>
+            <a href="#home" class="logo">
+                RPM<span>.</span>
+            </a>
 
-            <nav class="nav-links">
-
+            <div class="nav-links">
                 <a href="#about">About</a>
-                <a href="#project">Projects</a>
+                <a href="#project">Project</a>
                 <a href="#skills">Skills</a>
                 <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
-
-            </nav>
+            </div>
 
         </div>
+    </nav>
 
-    </header>
 
+    <!-- HERO -->
+    <section id="home" class="hero">
 
-    <!-- =========================
-         HERO
-    ========================== -->
+        <div class="hero-container">
 
-    <main>
+            <p class="eyebrow">
+                DATA SCIENCE • ANALYTICS • BUSINESS
+            </p>
 
-        <section class="hero" id="about">
+            <h1>
+                Rodrigo Palhares
+                <span>Medina</span>
+            </h1>
 
-            <div class="hero-content">
+            <h2>
+                Aspiring Data Scientist | Data Analyst | Business Analytics
+            </h2>
 
-                <p class="eyebrow">
-                    DATA SCIENCE PORTFOLIO
-                </p>
+            <p class="hero-description">
+                Economics professional with extensive experience in sales,
+                finance, business management and consulting, currently pursuing
+                an MBA in Data Science.
+            </p>
 
-                <h1>
-                    Rodrigo Palhares Medina
-                </h1>
+            <div class="buttons">
 
-                <h2>
-                    Data Science &amp; Analytics
-                </h2>
+                <a href="#project" class="button primary">
+                    View My Project
+                </a>
 
-                <p class="hero-description">
-                    Economics professional and MBA in Data Science candidate
-                    with extensive experience in sales, business operations,
-                    analytics, and data-driven decision making.
-                </p>
-
-                <div class="buttons">
-
-                    <a href="#project" class="button primary">
-                        View Projects
-                    </a>
-
-                    <a href="#contact" class="button secondary">
-                        Contact Me
-                    </a>
-
-                </div>
+                <a href="https://github.com/rpmvmk"
+                   target="_blank"
+                   class="button secondary">
+                    GitHub ↗
+                </a>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- =========================
-             TECHNOLOGIES
-        ========================== -->
+    <!-- ABOUT -->
+    <section id="about" class="section">
 
-        <section class="technology-section">
+        <div class="section-title">
+            <span>01</span>
+            ABOUT ME
+        </div>
+
+        <div class="about-grid">
+
+            <div>
+
+                <h2>
+                    Business experience.
+                    <br>
+                    Data-driven future.
+                </h2>
+
+            </div>
+
+            <div class="about-text">
+
+                <p>
+                    I am an Economics professional with extensive experience
+                    in sales, financial services, business management and
+                    consulting.
+                </p>
+
+                <p>
+                    I am currently pursuing an
+                    <strong>MBA in Data Science at Southeastern University</strong>,
+                    developing practical skills in Python, SQL, data analysis,
+                    visualization and machine learning.
+                </p>
+
+                <p>
+                    My goal is to combine my business background with data
+                    science to solve real-world problems, identify patterns,
+                    and support better business decisions.
+                </p>
+
+                <p>
+                    I am currently seeking opportunities as a
+                    <strong>Data Analyst, Business Analyst or Junior Data Scientist.</strong>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAPSTONE PROJECT -->
+    <section id="project" class="section project-section">
+
+        <div class="section-title">
+            <span>02</span>
+            CAPSTONE PROJECT
+        </div>
+
+        <div class="project-card">
+
+            <p class="project-category">
+                SPACEX • FALCON 9
+            </p>
+
+            <h2>
+                Falcon 9 First-Stage Landing Prediction
+            </h2>
+
+            <p class="project-description">
+
+                This project analyzes historical SpaceX Falcon 9 launch
+                data to investigate the factors associated with successful
+                first-stage landings.
+
+                The project follows a complete data science workflow,
+                including data collection, data wrangling, exploratory
+                data analysis, visualization, feature preparation and
+                machine-learning prediction.
+
+            </p>
+
+
+            <!-- TECHNOLOGIES -->
 
             <div class="technologies">
 
@@ -103,443 +174,281 @@
                 <span>Seaborn</span>
                 <span>Scikit-learn</span>
                 <span>Jupyter Notebook</span>
-                <span>GitHub</span>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PROJECTS
-        ========================== -->
-
-        <section class="section" id="project">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    FEATURED WORK
-                </p>
-
-                <h2>
-                    SpaceX Data Science Project
-                </h2>
-
-                <p>
-                    A complete data science workflow covering data collection,
-                    web scraping, data wrangling, analysis, visualization,
-                    and machine learning.
-                </p>
 
             </div>
 
 
-            <div class="projects-grid">
+            <!-- PROJECT AREAS -->
 
-
-                <!-- PROJECT 01 -->
+            <div class="project-grid">
 
                 <div class="project-item">
-
-                    <span class="project-number">
-                        01
-                    </span>
 
                     <h3>
                         Data Collection
                     </h3>
 
                     <p>
-                        Collected SpaceX launch information using APIs
-                        and structured the data for subsequent analysis.
+                        Collected and prepared SpaceX launch information
+                        using API-based data collection and supporting
+                        data sources.
                     </p>
 
                     <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
+                       target="_blank">
+                        View repository →
                     </a>
 
                 </div>
 
-
-                <!-- PROJECT 02 -->
 
                 <div class="project-item">
 
-                    <span class="project-number">
-                        02
-                    </span>
-
                     <h3>
-                        Web Scraping
-                    </h3>
-
-                    <p>
-                        Retrieved launch-related information through
-                        web scraping and prepared the information
-                        for analysis.
-                    </p>
-
-                    <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
-                    </a>
-
-                </div>
-
-
-                <!-- PROJECT 03 -->
-
-                <div class="project-item">
-
-                    <span class="project-number">
-                        03
-                    </span>
-
-                    <h3>
-                        Data Wrangling
-                    </h3>
-
-                    <p>
-                        Cleaned, transformed, and prepared the SpaceX
-                        dataset for exploratory analysis and modeling.
-                    </p>
-
-                    <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
-                    </a>
-
-                </div>
-
-
-                <!-- PROJECT 04 -->
-
-                <div class="project-item">
-
-                    <span class="project-number">
-                        04
-                    </span>
-
-                    <h3>
-                        Data Analysis
-                    </h3>
-
-                    <p>
-                        Examined launch characteristics, mission
-                        variables, and landing outcomes to identify
-                        meaningful patterns in the data.
-                    </p>
-
-                    <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
-                    </a>
-
-                </div>
-
-
-                <!-- PROJECT 05 -->
-
-                <div class="project-item">
-
-                    <span class="project-number">
-                        05
-                    </span>
-
-                    <h3>
-                        Machine Learning
-                    </h3>
-
-                    <p>
-                        Built classification models using Scikit-learn
-                        to predict successful Falcon 9 first-stage
-                        landings.
-                    </p>
-
-                    <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
-                    </a>
-
-                </div>
-
-
-                <!-- PROJECT 06 -->
-
-                <div class="project-item">
-
-                    <span class="project-number">
-                        06
-                    </span>
-
-                    <h3>
-                        Model Evaluation
-                    </h3>
-
-                    <p>
-                        Evaluated model performance using a held-out
-                        test dataset and compared prediction accuracy
-                        to assess the classification workflow.
-                    </p>
-
-                    <a href="https://github.com/rpmvmk/Space-X-API"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        View on GitHub →
-
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SKILLS
-        ========================== -->
-
-        <section class="section" id="skills">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    TECHNICAL SKILLS
-                </p>
-
-                <h2>
-                    Data Science Toolkit
-                </h2>
-
-            </div>
-
-
-            <div class="skills-grid">
-
-
-                <div class="skill-card">
-
-                    <h3>
-                        Data Analysis
-                    </h3>
-
-                    <p>
-                        Python<br>
-                        Pandas<br>
-                        NumPy<br>
-                        SQL
-                    </p>
-
-                </div>
-
-
-                <div class="skill-card">
-
-                    <h3>
-                        Data Visualization
-                    </h3>
-
-                    <p>
-                        Matplotlib<br>
-                        Seaborn<br>
                         Exploratory Data Analysis
+                    </h3>
+
+                    <p>
+                        Investigated launch characteristics and landing
+                        outcomes using statistical analysis and data
+                        visualization.
                     </p>
+
+                    <a href="https://github.com/rpmvmk/Space-X-API"
+                       target="_blank">
+                        View analysis →
+                    </a>
 
                 </div>
 
 
-                <div class="skill-card">
+                <div class="project-item">
 
                     <h3>
                         Machine Learning
                     </h3>
 
                     <p>
-                        Scikit-learn<br>
-                        Classification<br>
-                        Regression<br>
-                        Model Evaluation
+                        Developed a classification workflow to predict
+                        Falcon 9 first-stage landing success.
                     </p>
 
-                </div>
+                    <a href="https://github.com/rpmvmk/Space-X-API"
+                       target="_blank">
+                        View machine learning →
+                    </a>
 
-
-                <div class="skill-card">
-
-                    <h3>
-                        Tools
-                    </h3>
-
-                    <p>
-                        Jupyter Notebook<br>
-                        GitHub<br>
-                        Google Colab<br>
-                        APIs
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             EDUCATION
-        ========================== -->
-
-        <section class="section" id="education">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    EDUCATION
-                </p>
-
-                <h2>
-                    Academic Background
-                </h2>
-
-            </div>
-
-
-            <!-- MBA -->
-
-            <div class="education-item">
-
-                <div>
-
-                    <p class="education-status">
-                        CURRENT
-                    </p>
-
-                    <h3>
-                        MBA in Data Science
-                    </h3>
-
-                    <p>
-                        Southeastern University
-                    </p>
-
-                    <p class="education-date">
-                        Expected Graduation: December 2027
-                    </p>
-
-                </div>
-
-                <div class="degree">
-                    MBA
                 </div>
 
             </div>
 
 
-            <!-- ECONOMICS -->
+            <!-- PROJECT LINKS -->
 
-            <div class="education-item">
+            <div class="project-buttons">
 
-                <div>
+                <a href="https://github.com/rpmvmk/Space-X-API"
+                   target="_blank"
+                   class="button primary">
 
-                    <h3>
-                        Bachelor's Degree in Economics
-                    </h3>
+                    View Source Code ↗
 
-                    <p>
-                        Pontifícia Universidade Católica
-                        de Minas Gerais (PUC Minas) — Brazil
-                    </p>
+                </a>
 
-                    <p class="education-date">
-                        Economics
-                    </p>
+                <a href="https://github.com/rpmvmk/Space-X-API/blob/main/README.md"
+                   target="_blank"
+                   class="button secondary">
 
-                </div>
+                    Project README
 
-                <div class="degree">
-                    ECONOMICS
-                </div>
+                </a>
 
             </div>
 
+        </div>
 
-        </section>
+    </section>
 
 
-        <!-- =========================
-             CONTACT
-        ========================== -->
+    <!-- SKILLS -->
+    <section id="skills" class="section">
 
-        <section class="section contact-section" id="contact">
+        <div class="section-title">
+            <span>03</span>
+            TECHNICAL SKILLS
+        </div>
 
-            <div class="section-heading">
+        <div class="skills-grid">
 
-                <p class="eyebrow">
-                    CONTACT
-                </p>
 
-                <h2>
-                    Let's connect.
-                </h2>
+            <div class="skill-card">
+
+                <h3>
+                    Data Analysis
+                </h3>
 
                 <p>
-                    I am interested in opportunities involving
-                    data science, analytics, business intelligence,
-                    and data-driven decision making.
+                    Python<br>
+                    Pandas<br>
+                    NumPy<br>
+                    SQL
                 </p>
 
             </div>
 
 
-            <div class="contact-links">
+            <div class="skill-card">
 
-                <a href="mailto:rodrigopmedina@gmail.com">
-                    Email
-                </a>
+                <h3>
+                    Data Visualization
+                </h3>
 
-                <a href="https://www.linkedin.com/in/rodrigo-palhares-medina"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-                <a href="https://github.com/rpmvmk"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
+                <p>
+                    Matplotlib<br>
+                    Seaborn<br>
+                    Exploratory Data Analysis
+                </p>
 
             </div>
 
-        </section>
 
-    </main>
+            <div class="skill-card">
+
+                <h3>
+                    Machine Learning
+                </h3>
+
+                <p>
+                    Scikit-learn<br>
+                    Classification<br>
+                    Regression<br>
+                    Model Evaluation
+                </p>
+
+            </div>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+            <div class="skill-card">
 
+                <h3>
+                    Tools
+                </h3>
+
+                <p>
+                    Jupyter Notebook<br>
+                    Google Colab<br>
+                    GitHub
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+        <div class="section-title">
+            <span>04</span>
+            EDUCATION
+        </div>
+
+
+        <div class="education-item">
+
+            <div>
+
+                <p class="education-status">
+                    CURRENT
+                </p>
+
+                <h3>
+                    MBA in Data Science
+                </h3>
+
+                <p>
+                    Southeastern University
+                </p>
+
+                <p class="education-date">
+                    Expected Graduation: December 2027
+                </p>
+
+            </div>
+
+            <div class="degree">
+                MBA
+            </div>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <div>
+
+                <h3>
+                    Bachelor's Degree in Economics
+                </h3>
+
+                <p>
+                    Pontifícia Universidade Católica de Minas Gerais
+                    (PUC Minas) — Brazil
+                </p>
+
+            </div>
+
+            <div class="degree">
+                ECONOMICS
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+
+        <div class="section-title">
+            <span>05</span>
+            CONTACT
+        </div>
+
+        <h2>
+            Let's connect.
+        </h2>
+
+        <p>
+            I am open to opportunities in data analytics,
+            business analytics and entry-level data science.
+        </p>
+
+
+        <div class="contact-links">
+
+            <a href="mailto:rodrigopmedina@gmail.com">
+                📧 rodrigopmedina@gmail.com
+            </a>
+
+            <a href="https://github.com/rpmvmk"
+               target="_blank">
+                GitHub ↗
+            </a>
+
+            <a href="https://www.linkedin.com/in/rodrigo-palhares-medina"
+               target="_blank">
+                LinkedIn ↗
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
     <footer>
 
         <p>
@@ -554,5 +463,4 @@
 
 
 </body>
-
 </html>
